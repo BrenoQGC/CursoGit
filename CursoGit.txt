@@ -1,0 +1,16 @@
+Comandos Bash:
+
+Conectar ao GitHub:
+   -CRIAR ACESSO SSH:
+	no bash: "ssh-keygen"
+	-não é necessário escolher endereço.
+	-Opcional: proteger a chave com uma senha (pede a senha para fazer operações com o repo)
+   é dado o endereço da chave.
+	Ir no diretorio e abrir "id_rsa.pub", copiar a chave 
+	-No GitHub: settings>SSH and GPG keys>New SSH keys.
+ 	   colar a chave e dar um nome
+
+   CRIAR REPOSITÓRIO:
+	Criar um repositório no GitHub.
+	Copiar a chave SSH do repositório. (No repositorio>clone or download>copiar).
+	No bash digitar "git clone <endereço SSH copiado>"
