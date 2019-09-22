@@ -1,5 +1,9 @@
 Comandos Bash:
 
+Comandos Git:
+	"git add ." - Insere arquivos na staging area
+	"git commit" - Adiciona no repositorio
+
 Conectar ao GitHub:
    -CRIAR ACESSO SSH:
 	no bash: "ssh-keygen"
@@ -13,4 +17,10 @@ Conectar ao GitHub:
    CRIAR REPOSITÓRIO:
 	Criar um repositório no GitHub.
 	Copiar a chave SSH do repositório. (No repositorio>clone or download>copiar).
-	No bash digitar "git clone <endereço SSH copiado>"
+	No bash digitar "git clone <endereço SSH copiado> <nome da pasta para puxar arquivos>"
+	
+   REPOSITORIO CRIADO.
+	basta usar os comandos para enviar arquivos ao github:
+	-"git add . " - adiciona arquivos no repositório
+	-"git commit"
+	-"git push origin master 	
