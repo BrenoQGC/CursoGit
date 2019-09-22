@@ -2,7 +2,11 @@ Comandos Bash:
 
 Comandos Git:
 	"git add ." - Insere arquivos na staging area
-	"git commit" - Adiciona no repositorio
+	"git commit" - Adiciona no repositorio 
+		-m "<mensagem>" - Não abre bloco de notas com mensagens
+	"git push <servidor> <branch>" - Envia arquivos pro servidor/GitHub.
+	"git remote" - Da o nome do servidor.
+
 
 Conectar ao GitHub:
    -CRIAR ACESSO SSH:
@@ -15,7 +19,7 @@ Conectar ao GitHub:
  	   colar a chave e dar um nome
 
    CRIAR REPOSITÓRIO:
-	Criar um repositório no GitHub.
+	Criar um repositório no github.com
 	Copiar a chave SSH do repositório. (No repositorio>clone or download>copiar).
 	No bash digitar "git clone <endereço SSH copiado> <nome da pasta para puxar arquivos>"
 	
