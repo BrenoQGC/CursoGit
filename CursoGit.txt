@@ -6,7 +6,13 @@ Comandos Git:
 		-m "<mensagem>" - Não abre bloco de notas com mensagens
 	"git push <servidor> <branch>" - Envia arquivos pro servidor/GitHub.
 	"git remote" - Da o nome do servidor.
-
+	"git pull <servidor> <branch>" - Baixa alterações do servidor (faz um merge)
+	   Se não quiser fazer o merge usa "git fetch <seridor> <cria outro branch>"
+	"git checkout <branch>" - muda de branch
+		-b <novo branch> - cria e muda para branch novo
+	"git merge <branch>" - Merge branch atual com branch indicado (a partir do branch que será o principal)
+	"git branch" - Lista os Branchs
+	"git branch -d <branch>" - deleta branch
 
 Conectar ao GitHub:
    -CRIAR ACESSO SSH:
