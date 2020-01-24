@@ -38,3 +38,7 @@ Conectar ao GitHub:
 	
 	BRANCHNG
 	- git branch <nome>
+	checkout -> faz mudanças 
+	
+	MERGING
+	git merge <branch original>
