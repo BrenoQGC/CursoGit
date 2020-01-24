@@ -3,34 +3,38 @@ Comandos Bash:
 Comandos Git:
 	"git add ." - Insere arquivos na staging area
 	"git commit" - Adiciona no repositorio 
-		-m "<mensagem>" - N„o abre bloco de notas com mensagens
+		-m "<mensagem>" - N√£o abre bloco de notas com mensagens
+	git commit -am "<mensagem>" add + commit
 	"git push <servidor> <branch>" - Envia arquivos pro servidor/GitHub.
 	"git remote" - Da o nome do servidor.
-	"git pull <servidor> <branch>" - Baixa alteraÁıes do servidor (faz um merge)
-	   Se n„o quiser fazer o merge usa "git fetch <seridor> <cria outro branch>"
-	"git checkout <branch>" - muda de branch
-		-b <novo branch> - cria e muda para branch novo
-	"git merge <branch>" - Merge branch atual com branch indicado (a partir do branch que ser· o principal)
+	"git pull <servidor> <branch>" - Baixa altera√ß√µes do servidor (faz um merge)
+	   Se n√£o quiser fazer o merge usa "git fetch <seridor> <cria outro branch>"
+	"git checkout <branch>" - muda pro <branch>
+		-b <branch> - cria e muda para <branch>
+	"git merge <branch>" - Merge branch atual com branch indicado (a partir do branch que ser√° o principal)
 	"git branch" - Lista os Branchs
 	"git branch -d <branch>" - deleta branch
 
 Conectar ao GitHub:
    -CRIAR ACESSO SSH:
 	no bash: "ssh-keygen"
-	-n„o È necess·rio escolher endereÁo.
-	-Opcional: proteger a chave com uma senha (pede a senha para fazer operaÁıes com o repo)
-   È dado o endereÁo da chave.
+	-n√£o √© necess√°rio escolher endere√ßo.
+	-Opcional: proteger a chave com uma senha (pede a senha para fazer opera√ß√µes com o repo)
+   √© dado o endere√ßo da chave.
 	Ir no diretorio e abrir "id_rsa.pub", copiar a chave 
 	-No GitHub: settings>SSH and GPG keys>New SSH keys.
  	   colar a chave e dar um nome
 
-   CRIAR REPOSIT”RIO:
-	Criar um repositÛrio no github.com
-	Copiar a chave SSH do repositÛrio. (No repositorio>clone or download>copiar).
-	No bash digitar "git clone <endereÁo SSH copiado> <nome da pasta para puxar arquivos>"
+   CRIAR REPOSIT√ìRIO:
+	Criar um reposit√≥rio no github.com
+	Copiar a chave SSH do reposit√≥rio. (No repositorio>clone or download>copiar).
+	No bash digitar "git clone <endere√ßo SSH copiado> <nome da pasta para puxar arquivos>"
 	
    REPOSITORIO CRIADO.
 	basta usar os comandos para enviar arquivos ao github:
-	-"git add . " - adiciona arquivos no repositÛrio
+	-"git add . " - adiciona arquivos no reposit√≥rio
 	-"git commit"
-	-"git push origin master 	
+	-"git push origin master 
+	
+	BRANCHNG
+	- git branch <nome>
